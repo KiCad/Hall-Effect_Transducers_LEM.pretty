@@ -1,9 +1,9 @@
 (module HTFS-Series_LEM-HallEffektCurrentTransducer (layer F.Cu)
   (at 0 0)
-  (fp_text reference HTFS-Series_LEM-HallEffektCurrentTransducer (at 0.075 -24.6) (layer F.SilkS)
+  (fp_text reference REF** (at 0.075 -24.6) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at -0.325 30.575) (layer F.SilkS) hide
+  (fp_text value HTFS-Series_LEM-HallEffektCurrentTransducer (at -0.325 30.575) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_circle (center 9.5 12) (end 9.675 12.125) (layer F.SilkS) (width 0.15))
@@ -172,7 +172,7 @@
   (pad 3 thru_hole circle (at 0 18.54) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 2 thru_hole circle (at 0 21.08) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at 0 23.62) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask F.SilkS))
-  (model Hall-Effect_Transducers_LEM/HTFS-Series_LEM-HallEffektCurrentTransducer.wrl
+  (model Hall-Effect_Transducers_LEM.3dshapes/HTFS-Series_LEM-HallEffektCurrentTransducer.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
